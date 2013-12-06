@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html  ng-app="notifymeApp">
+<head>
+    <title>test</title>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=true"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+    <script type="text/javascript" src="angular-google-maps.js"></script>
+    <script src="controller.js"></script>
+</head>
+<body  ng-controller="MainCtrl">
+<div id="map">
+
+</div>
+<div id="res">
+
+</div>
+
+<input ng-model="newremind"/><button ng-click="add()">Add</button>
+
+<!--<ui>
+    <li ng-repeat="remind in remindings">
+        {{remind.name}}
+    </li>
+</ui>-->
+    
+	<div id="map-canvas" style="width:1000px; height:700px;"/>	 
+</body>
+</html>
