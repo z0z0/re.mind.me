@@ -1,0 +1,27 @@
+re:mind
+
+The basic idea is to set a reminder WHEN you're near a location.
+
+new re:minder
+-You set your reminder by giving it a name, and categories of places that trigger the alarm.
+-You can also set an exact location (an address or a city), in which case, you'll get a notification when you get close to it (default is <100m, but you'll probably be able to change it in settings panel). This is optional
+-You can set a starting date. Default time is right away, but you can set it up for a date in future.
+
+re:minder will push a notification when it decides you're close to a location.
+-if you're moving too fast (we need to determine what 'moving fast' means) it wont push notifications (or just push once), since that probably means you're in a moving vehicle 
+-if you're not moving at all, the re:minder will push one notification
+---
+when you open a notification, you can dismiss it right away (don't show again), or you can snooze it to remind you later (we need to figure out whether you'll set the snooze time then, or the app will detect when you're on the move again and set your re:minder again).
+
+notifications:
+so, you get a notification when you're near a location. if you don't open it right away, and keep moving, it will calculate a new set of points, and show you a new search (? - seems to me that there is no point in stacking them)
+when you open a notification, it shows a set of locations for your re:minder. by zooming out the map, you get a new set of locations which are further
+
+
+settings:
+you can set proximity, which means that you will get notifications for locations within given range.
+set up new categories (home,office)
+
+
+learning:
+the app will actually store your movement, and then, it can learn what are your most visited areas. this way, you can set a location that represents your home or office, and those will be added to the list of possible categories.
