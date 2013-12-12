@@ -4,17 +4,18 @@
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
+    <access origin="*" />
     <content src="index.html" />
     <preference name="loglevel" value="DEBUG" />
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
-    <name>HelloWorld</name>
+    <name>re:mind me</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Test for remind me app
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+        Rest Monkeys
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
@@ -56,8 +57,5 @@
     <gap:splash gap:platform="ios" height="1024" src="res/screen/ios/screen-ipad-portrait.png" width="768" />
     <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
-    <access origin="*" />
-    <feature name="Geolocation">
-        <param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" />
-    </feature>
+    <access origin="http://127.0.0.1*" />
 </widget>

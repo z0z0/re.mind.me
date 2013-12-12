@@ -1,2 +1,2 @@
-/home/gimlet/workspace/phonegap/notify.me/app/platforms/android/bin/AndroidManifest.xml : \
-/home/gimlet/workspace/phonegap/notify.me/app/platforms/android/AndroidManifest.xml \
+C:\Users\Olja\Desktop\remind\re.mind.me\platforms\android\bin\AndroidManifest.xml : \
+C:\Users\Olja\Desktop\remind\re.mind.me\platforms\android\AndroidManifest.xml \
